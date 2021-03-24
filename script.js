@@ -35,7 +35,8 @@ function setVideoProgress() {
 
 // stop video 
 function stopVideo() {
-    return true;
+    video.currentTime = 0;
+    video.pause();
 }
 
 // event listeners 
